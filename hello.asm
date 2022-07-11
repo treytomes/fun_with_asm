@@ -12,7 +12,7 @@
 	section	.text
 _start:
 	mov	rax, 1			; system call for write
-	mov	rdi, 1			; file handld 1 is stdout
+	mov	rdi, 1			; file handle 1 is stdout
 	mov	rsi, message		; address of string to output
 	mov	rdx, 14			; number of bytes
 	syscall				; invoke operating system to do the write

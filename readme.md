@@ -12,3 +12,9 @@ Writes "Hello, world!" to the console using only system calls.
 
 `nasm -felf64 hello.asm && ld hello.o && ./a.out
 
+# Example 2: triangle.asm
+
+Draw an inverted triangle.
+
+Demonstrates looping, writing a single character, an the importance of saving registers that get thrashed by syscalls.
+
